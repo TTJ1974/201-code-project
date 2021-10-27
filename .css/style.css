@@ -5,16 +5,17 @@ p { font-style: italic;
 
 h1 {
   color: rgb(160, 120, 9);
-  font-size:xx-large; text-align: center;
+  font-size:75px; text-align: center;
 }
 
-p {
+.p {
   
 }
 
 body {background-color: darkslategray;}
 
-header {background-color: black; mmargin: 2px 2px 2px;}
+header {background-color: black; mmargin: 2px 2px 2px; padding: 50px;
+}
 
 
 section { font-style:bold;
