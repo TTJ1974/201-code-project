@@ -1,3 +1,4 @@
+"use strict";
 let questions = [
   ["What is my first name?", "JOHN", "An outstanding first name, im sure you will agree!"],
   ["Where was i born?", "MT VERNON", "Heh can you say Tulip Festival!"],
