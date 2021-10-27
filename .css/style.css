@@ -1,12 +1,22 @@
-p {
-  color:blue
-}
+p { font-style: italic;
+  color:blue; margin: 10px 50px 20px;
 
+}
 
 h1 {
-  color: rgb(236, 232, 221);
+  color: rgb(160, 120, 9);
+  font-size:xx-large; text-align: center;
 }
 
 p {
-  font-style: italic;
+  
 }
+
+body {background-color: darkslategray;}
+
+header {background-color: black; mmargin: 2px 2px 2px;}
+
+
+section { font-style:bold;
+color: rgb(23, 172, 192);
+float: left ; padding: 4px;} 
