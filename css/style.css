@@ -1,23 +1,19 @@
-p { font-style: italic;
-  color:blue; margin: 10px 50px 20px;
-
-}
-
 h1 {
   color: rgb(160, 120, 9);
   font-size:75px; text-align: center;
 }
+h2 {
+  color: crimson; font-size: xx-large; margin-top: 350px; text-align: left;
 
-.p {
-  
 }
+
 
 body {background-color: darkslategray;}
 
 header {background-color: black; mmargin: 2px 2px 2px; padding: 50px;
 }
 
+ol {text-align: center; color: crimson; margin-top: 100px;
 
-section { font-style:bold;
-color: rgb(23, 172, 192);
-float: left ; padding: 4px;} 
+}
+
