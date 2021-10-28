@@ -4,8 +4,7 @@
   ["Where was i born?", "MT VERNON", "Heh can you say Tulip Festival!"],
   ["Did i live in Alaska?", "YES", "Lots of moose up that way, and bears lots of bears!"],
   ["Gamer or Car buff?", "BOTH", "I like to change it up on occasion!"],
-  ["What is the programing language I really want to learn?", "PYTHON", "Im all about some robot language!"]
-  ]; 
+  ["What is the programing language I really want to learn?", "PYTHON", "Im all about some robot language!"]; 
   
   let correctAnswers = 0;
   
@@ -19,4 +18,18 @@
           alert("incorrect, the correct answer was " + questions[i][1]);
       }
   }
-  
+
+
+  function numGame() {
+    // declare variables
+    let numAnswer = 6;
+    // guess a number between 1-10  
+    let numGuess = prompt("Guess a number between 1-10."); 
+    // 4 tries
+    // give the answer if failed
+    // end game if won
+        
+
+
+
+  }
