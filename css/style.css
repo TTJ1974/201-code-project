@@ -1,1 +1,15 @@
-p {color:crimson}
+p {color:crimson
+}
+
+body {background-color:blanchedalmond;}
+
+h1 {
+  color: rgb(160, 120, 9);
+  font-size:75px; text-align: center; background-color: black
+;height: 200px;
+ width: max-width; margin-top: 10px;
+
+}
+
+h2 {color:crimson; margin-top: 200px}; 
+
