@@ -10,16 +10,17 @@ let correctAnswers = 0;
 
 for (let i = 0; i < questions.length; i++) {
     let answer = prompt(questions[i][0]);
-    if (answer.toUpperCase() == questions[i][1]) {
+    if (answer.toUpperCase() == questions[i][1]) 
         alert("Correct! " + questions[i][2]);
         correctAnswers++;
     }
+    
     else {
         alert("incorrect, the correct answer was " + questions[i][1]);
     }
 
-    
-/*function numGame() {
+
+function numGame() 0{
     // declare variables
     let numAnswer = 6;
     // have the user guess a number between 1-10 via prompt
@@ -28,7 +29,9 @@ for (let i = 0; i < questions.length; i++) {
     let maxTries = 4;
     let tryCount = 0;
     // give the answer if failed
-    while (tryCount <= maxTries) {
+    while (tryCount <= maxTries) { 
+
+    }
         if (numGuess > numAnswer) {
             numGuess = prompt("Too high. Guess a number between 1-10.");
         }
@@ -41,6 +44,5 @@ for (let i = 0; i < questions.length; i++) {
 
         tryCount +=1 ;
         // end game if won
-    }
+    
 
-*/
